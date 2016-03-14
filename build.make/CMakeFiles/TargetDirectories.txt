@@ -1,0 +1,4 @@
+/Users/yeyi/Desktop/hw-project/build.make/3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir
+/Users/yeyi/Desktop/hw-project/build.make/3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir
+/Users/yeyi/Desktop/hw-project/build.make/tests/CMakeFiles/proj_test.dir
+/Users/yeyi/Desktop/hw-project/build.make/src/proj/CMakeFiles/proj.dir

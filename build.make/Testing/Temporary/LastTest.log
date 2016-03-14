@@ -1,0 +1,20 @@
+Start testing: Dec 09 16:12 CST
+----------------------------------------------------------
+1/1 Testing: proj_test
+1/1 Test: proj_test
+Command: "/Users/yeyi/Desktop/hw-project/build.make/tests/proj_test"
+Directory: /Users/yeyi/Desktop/hw-project/build.make/tests
+"proj_test" start time: Dec 09 16:12 CST
+Output:
+----------------------------------------------------------
+Success: 12 tests passed.
+Test time: 0.00 seconds.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"proj_test" end time: Dec 09 16:12 CST
+"proj_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 09 16:12 CST

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yeyi/Desktop/hw-project/src/proj/proj.cpp
+proj.hpp
+/Users/yeyi/Desktop/hw-project/src/proj/proj.hpp
+
+/Users/yeyi/Desktop/hw-project/src/proj/proj.hpp
+vector
+-
+utility
+-
+cmath
+-
+
