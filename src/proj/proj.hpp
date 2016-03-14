@@ -22,7 +22,7 @@ namespace proj
         T getMax() const;
         //	delete the minimum element in the heap
         void deleteMin();
-        //	delete the maximum element in the heap
+        //  delete the maximum element in the heap
         void deleteMax();
         //  return the size of the heap
         size_t size() const noexcept;
