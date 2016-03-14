@@ -1,5 +1,6 @@
 # Min-Max-Heap
-### Introduction
+###### Final Project of EECS 495 Intensive Programming Design
+#### Introduction
 * A min-max heap is a complete binary tree and often represented in an array. 
 * Invariants:
   1. containing alternating min and max levels
