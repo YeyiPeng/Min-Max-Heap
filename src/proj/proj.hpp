@@ -14,13 +14,13 @@ namespace proj
     public:
         //  see whether the heap is empty
         bool isEmpty() const noexcept;
-        //	insert an element to the heap
+        //  insert an element to the heap
         void insert(T) noexcept;
-        //	return the minimum element in the heap
+        //  return the minimum element in the heap
         T getMin() const;
-        //	return the maximum element in the heap
+        //  return the maximum element in the heap
         T getMax() const;
-        //	delete the minimum element in the heap
+        //  delete the minimum element in the heap
         void deleteMin();
         //  delete the maximum element in the heap
         void deleteMax();
@@ -51,15 +51,15 @@ namespace proj
         
         //  percolate down the element at min level
         void percolateMin(idx);
-        //	percolate down the element at max level
+        //  percolate down the element at max level
         void percolateMax(idx);
-        //	return the minimum child of a position
+        //  return the minimum child of a position
         idx getMinDescendant(idx) const;
-        //	return the maximum child of a position
+        //  return the maximum child of a position
         idx getMaxDescendant(idx) const;
-        //	return the minimum grandchild of a position
+        //  return the minimum grandchild of a position
         idx getMinGrandChild(idx) const;
-        //	return the maximum grandchild of a position
+        //  return the maximum grandchild of a position
         idx getMaxGrandChild(idx) const;
     };
     
