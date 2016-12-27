@@ -309,10 +309,13 @@ namespace proj
         else
             minchild = left(i);
         
-        if (left(left(i)) < heap.size())
-            return getMinGrandChild(i);
-        else
+        if (left(left(i)) < heap.size()) {
+            if (heap[minchild] >= heap[getMinGrandChild(i)]) return getMinGrandChild(i);
             return minchild;
+        }
+        else {
+            return minchild;
+        }
     }
     
     template <typename T>
@@ -325,10 +328,13 @@ namespace proj
         else
             maxchild = left(i);
         
-        if (left(left(i)) < heap.size())
-            return getMaxGrandChild(i);
-        else
+        if (left(left(i)) < heap.size()) {
+            if (heap[maxchild] <= heap[getMaxGrandChild(i)]) return getMaxGrandChild(i);
             return maxchild;
+        }
+        else {
+            return maxchild;
+        }
     }
     
     template <typename T>
